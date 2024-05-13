@@ -1,11 +1,11 @@
-import React from 'react'
-import "./components/header/header.css"
+import AppRoutes from "./routes/Routes";
+
 const App = () => {
   return (
-    <div>
-      <img src="public/images/hero bckrnd.jpg" alt="" />
+    <div >
+      <AppRoutes/>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
