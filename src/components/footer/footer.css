@@ -1,0 +1,94 @@
+.footer {
+    background-color: #212636;
+    margin-top: 70px;
+    padding: 20px 0;
+}
+
+.social i svg {
+    color: white;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 30px; */
+
+}
+
+.footer-card {
+    margin-top: 40px;
+    /* display: inline; */
+    /* text-align: center; */
+}
+
+.footer-card:first-child {
+    width: 42%;
+
+}
+
+.footer-card .logo {
+    font-size: 28px;
+    font-weight: 400;
+    color: #1976D2;
+}
+
+.footer-card p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #CED4DA;
+  
+}
+
+.footer-card .social {
+    margin-top: 58px;
+    display: flex;
+    gap: 22px;
+}
+
+.social a svg {
+    width: 20px;
+    height: 20px;
+    color: #fff;
+}
+
+.social a svg:hover {
+    color: #1976D2;
+}
+
+.footer-card h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.footer-card a {
+    font-size: 16px;
+    font-weight: 300;
+    color: #CED4DA;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.footer-link {
+    display: flex;
+    column-gap: 73px;
+    margin-right: 143px;
+}
+
+.footer-bottom {
+    display: flex;
+    column-gap: 72px;
+    margin-top: 30px;
+}
+
+.footer-bottom a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #F3F3F3;
+}
+.footer-bottom p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #F3F3F3;
+}

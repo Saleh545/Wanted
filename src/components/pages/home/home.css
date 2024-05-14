@@ -13,6 +13,7 @@
     width: 1144px;
     margin: 0 auto;
 }
+
 .home-page {
     background-image: url("public/images/hero bckrnd.jpg");
     background-size: 100% auto;
@@ -148,7 +149,7 @@
     font-size: 16px;
     font-weight: 300;
     color: #121212;
-    margin-top: 4px ;
+    margin-top: 4px;
 }
 
 .card-text a {
@@ -171,17 +172,275 @@
     margin-left: 10px;
 }
 
-.timeline{
-    margin-top: 142px ;
-    background-image: url("public/images/timeline.png");
-    background-size: 100% 100%  ;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
+.timeline {
+    margin-top: 142px;
+    position: relative;
+
 }
 
-.timeline h1{
+.timeline-img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.timeline-img img {
+    width: 100%;
+}
+
+.timeline h1 {
     font-size: 40px;
     font-weight: 600;
     text-align: center;
+}
+
+.timeline-texts {
+    z-index: 999;
+    display: flex;
+}
+
+.timeline-text {
+    width: 49%;
+    text-align: center;
+    margin: 200px 0 0 52px;
+}
+
+.timeline-text h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.timeline-text p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #6C757D;
+}
+
+.timeline-text2 {
+    margin: 228px 0 0 83px;
+    width: 36%;
+}
+
+.timeline-text3 {
+    width: 43%;
+    margin: 276px 0 0 39px;
+}
+
+.timeline-text4 {
+    width: 50%;
+    margin: 183px 0 0 -11px;
+}
+
+.timeline-texts5 {
+    justify-content: center;
+}
+
+.timeline-text5 {
+    width: 49%;
+    text-align: center;
+    margin: 175px 0 0 52px;
+}
+
+.cv {
+    background-color: #0D47A1;
+    margin-top: 80px;
+}
+
+.cv-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cv-text {
+    width: 50%;
+}
+
+.cv-img {
+    width: 560px;
+    height: 562px;
+}
+
+.cv-img img {
+    width: 100%;
+}
+
+.cv-text h3 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.cv-text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.cv-text a {
+    padding: 12px 20px;
+    outline: none;
+    border: none;
+    color: black;
+    border-radius: 6px;
+    background-color: #42A5F5;
+    margin-top: 60px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+
+}
+
+.cv-text a:hover {
+    background-color: #56b3fe;
+}
+
+
+.card-center {
+    margin-top: 90px;
+}
+
+.card-flex {
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card-text h5 {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    margin-top: 24px;
+}
+
+.card-text span {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    z-index: 999;
+}
+
+.card {
+    padding: 21px 0;
+    border-radius: 6px;
+    box-shadow: 0px 0px 47.7px 0px rgba(71, 67, 67, 0.09);
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.card .card-img {
+    width: 60px;
+    height: 60px;
+}
+
+.card .card-img img {
+    width: 100%;
+}
+
+.card .img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 76px;
+    height: 117px;
+    z-index: -1;
+}
+
+.card .img2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 114px;
+    height: 88px;
+}
+
+.card .img3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 52px;
+    height: 117px;
+    z-index: -1;
+}
+
+.card .img4 {
+    position: absolute;
+    right: 0;
+    top: 12px;
+    width: 71px;
+    height: 112px;
+}
+
+.card .img5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 99px;
+    height: 90px;
+}
+
+.card .img6 {
+    position: absolute;
+    bottom: 22px;
+    right: 0;
+    width: 58px;
+    height: 121px;
+    z-index: -1;
+
+}
+
+.intern {
+    margin-top: 130px;
+}
+
+.intern-flex {
+    display: flex;
+}
+
+.intern-img {
+    width: 96%;
+}
+
+.intern-img img {
+    width: 100%;
+}
+.intern-text{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: 24px;
+    width: 93% ;
+}
+.intern-text h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+
+.intern-text p span {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.intern-text p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 12px;
+}
+.intern-text .email{
+    border: 1px solid rgb(206, 212, 218);
+    border-radius: 6px;    margin-top: 40px;
+    width: 78%;
 }
