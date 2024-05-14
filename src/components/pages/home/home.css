@@ -13,15 +13,19 @@
     width: 1144px;
     margin: 0 auto;
 }
-
-.home-page {
-    background-image: url("public/images/hero-bckrnd.jpg");
-    background-size: 100% auto;
-    background-position: center;
-    background-repeat: no-repeat;
+.home-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100vh;
+    z-index: -1;
 }
-
+.home-img img{
+    width: 100%;
+    height: 100%;
+    
+}
 .hero {
     height: 87vh;
     display: flex;

@@ -6,10 +6,12 @@ import { GoArrowRight } from "react-icons/go";
 import { MdOutlineMail } from "react-icons/md";
 import Foooter from "../../footer/Foooter";
 
-
 const Home = () => {
   return (
     <div className="home-page">
+      <div className="home-img">
+        <img src="public/images/hero-bckrnd.png" alt="" />
+      </div>
       <div className="container">
         <Header />
         <div className="hero">
@@ -235,22 +237,25 @@ const Home = () => {
                 internship.
               </p>
               <p>
-                2. <span>Monitoring Progress:</span>  Continuously track interns' performance, offering feedback and support as needed.
-
+                2. <span>Monitoring Progress:</span> Continuously track interns'
+                performance, offering feedback and support as needed.
               </p>
               <p>
-                3. <span>Rewarding Achievement:</span> Present a special bonus upon successful completion of the internship, acknowledging their hard work and contributions.
+                3. <span>Rewarding Achievement:</span> Present a special bonus
+                upon successful completion of the internship, acknowledging
+                their hard work and contributions.
               </p>
               <div className="input email">
-            <input type="search" placeholder="Email address" />
-            <i>
-            <MdOutlineMail />            </i>
-          </div>
+                <input type="search" placeholder="Email address" />
+                <i>
+                  <MdOutlineMail />{" "}
+                </i>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <Foooter/>
+      <Foooter />
     </div>
   );
 };
