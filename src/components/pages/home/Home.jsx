@@ -4,7 +4,7 @@ import { CiSearch } from "react-icons/ci";
 import { Link } from "react-router-dom";
 import { GoArrowRight } from "react-icons/go";
 import { MdOutlineMail } from "react-icons/md";
-import Footer from "../../footer/Footer";
+import Foooter from "../../footer/Foooter";
 
 
 const Home = () => {
@@ -250,7 +250,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Foooter/>
     </div>
   );
 };

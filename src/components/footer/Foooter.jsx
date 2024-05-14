@@ -6,7 +6,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const Footer = () => {
+const Foooter = () => {
   return (
     <div>
       <div className="footer">
@@ -61,4 +61,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Foooter;
