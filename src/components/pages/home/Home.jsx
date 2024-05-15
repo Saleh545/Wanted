@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div className="home-page">
       <div className="home-img">
-        <img src="public/images/hero-bckrnd.png" alt="" />
+        <img src="./images/hero-bckrnd.png" alt="" />
       </div>
       <div className="container">
         <Header />
