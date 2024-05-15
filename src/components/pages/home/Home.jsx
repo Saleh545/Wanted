@@ -16,7 +16,7 @@ const Home = () => {
       <div className="container">
         <div className="hero">
           <div className="wrapper">
-            <p><span>Beginning</span> of your</p>
+            <p>Beginning of your</p>
 
             <p>
               career
@@ -25,7 +25,7 @@ const Home = () => {
                 <span>life</span>
                 <span>path</span>
               </div>
-              is <span>Wanted</span> !
+              is Wanted !
             </p>
           </div>
 
