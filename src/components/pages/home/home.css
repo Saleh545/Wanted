@@ -122,6 +122,7 @@
     font-size: 36px;
     font-weight: 600;
     color: #121212;
+    text-align: center;
 }
 
 .companies-card {
@@ -226,7 +227,7 @@
 }
 
 .timeline-text p {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 300;
     color: #6C757D;
 }
@@ -324,7 +325,7 @@
 }
 
 .card-text {
-    text-align: center;
+    /* text-align: center; */
 }
 
 .card-text h5 {
