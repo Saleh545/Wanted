@@ -9,14 +9,14 @@ import Foooter from "../../footer/Foooter";
 const Home = () => {
   return (
     <div className="home-page">
+        <Header />
       <div className="home-img">
         <img src="./images/hero-bckrnd.png" alt="" />
       </div>
       <div className="container">
-        <Header />
         <div className="hero">
           <div className="wrapper">
-            <p>Beginning of your</p>
+            <p><span>Beginning</span> of your</p>
 
             <p>
               career
@@ -102,7 +102,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-
         <div className="timeline">
           <h1>Your project timeline:</h1>
 
@@ -162,6 +161,8 @@ const Home = () => {
       </div>
       <div className="cv">
         <div className="container">
+          <div className="cv-content">
+
           <div className="cv-flex">
             <div className="cv-text">
               <h3>Unlock Your Future: Free CV Upon Internship Completion</h3>
@@ -178,6 +179,7 @@ const Home = () => {
             <div className="cv-img">
               <img src="./images/cv.png" alt="" />
             </div>
+          </div>
           </div>
         </div>
       </div>
