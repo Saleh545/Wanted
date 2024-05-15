@@ -193,7 +193,7 @@ const Home = () => {
                 <h5>Join team</h5>
                 <span>Hiring managers look for soft skills</span>
               </div>
-              <img className="img2" src="public/images/circle2.png" alt="" />
+              <img className="img2" src="./images/circle2.png" alt="" />
             </div>
 
             <div className="card">
