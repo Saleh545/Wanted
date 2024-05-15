@@ -25,7 +25,7 @@ const Home = () => {
                 <span>life</span>
                 <span>path</span>
               </div>
-              is Wanted !
+              is <span>Wanted</span> !
             </p>
           </div>
 
