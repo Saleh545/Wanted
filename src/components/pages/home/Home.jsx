@@ -42,7 +42,7 @@ const Home = () => {
           <div className="companies-cards">
             <div className="companies-card">
               <div className="img">
-                <img src="public/images/img-1.png" alt="" />
+                <img src="./images/img-1.png" alt="" />
               </div>
               <div className="card-text">
                 <h5>Mailchimp</h5>
@@ -57,7 +57,7 @@ const Home = () => {
             </div>
             <div className="companies-card">
               <div className="img">
-                <img src="public/images/img-2.png" alt="" />
+                <img src="./images/img-2.png" alt="" />
               </div>
               <div className="card-text">
                 <h5>Azercell</h5>
@@ -72,7 +72,7 @@ const Home = () => {
             </div>
             <div className="companies-card">
               <div className="img">
-                <img src="public/images/img-3.png" alt="" />
+                <img src="./images/img-3.png" alt="" />
               </div>
               <div className="card-text">
                 <h5>Trello</h5>
@@ -87,7 +87,7 @@ const Home = () => {
             </div>
             <div className="companies-card">
               <div className="img">
-                <img src="public/images/img-4.png" alt="" />
+                <img src="./images/img-4.png" alt="" />
               </div>
               <div className="card-text">
                 <h5>Asana</h5>
@@ -107,7 +107,7 @@ const Home = () => {
           <h1>Your project timeline:</h1>
 
           <div className="timeline-img">
-            <img src="public/images/timeline.png" alt="" />
+            <img src="./images/timeline.png" alt="" />
           </div>
 
           <div className="timeline-texts">
@@ -176,7 +176,7 @@ const Home = () => {
               <Link>Learn more</Link>
             </div>
             <div className="cv-img">
-              <img src="public/images/cv.png" alt="" />
+              <img src="./images/cv.png" alt="" />
             </div>
           </div>
         </div>
@@ -185,9 +185,9 @@ const Home = () => {
         <div className="container">
           <div className="card-flex">
             <div className="card">
-              <img src="public/images/cirle1.png" className="img1" alt="" />
+              <img src="./images/cirle1.png" className="img1" alt="" />
               <div className="card-img">
-                <img src="public/images/join.png" alt="" />
+                <img src="./images/join.png" alt="" />
               </div>
               <div className="card-text">
                 <h5>Join team</h5>
@@ -197,27 +197,27 @@ const Home = () => {
             </div>
 
             <div className="card">
-              <img src="public/images/circle3.png" className="img3" alt="" />
+              <img src="./images/circle3.png" className="img3" alt="" />
               <div className="card-img">
-                <img src="public/images/get.png" alt="" />
+                <img src="./images/get.png" alt="" />
               </div>
               <div className="card-text">
                 <h5>Get experience</h5>
                 <span>Work-simulated environment</span>
               </div>
-              <img src="public/images/circle4.png" className="img4" alt="" />
+              <img src="./images/circle4.png" className="img4" alt="" />
             </div>
 
             <div className="card">
-              <img src="public/images/circle5.png" className="img5" alt="" />
+              <img src="./images/circle5.png" className="img5" alt="" />
               <div className="card-img">
-                <img src="public/images/find.png" alt="" />
+                <img src="./images/find.png" alt="" />
               </div>
               <div className="card-text">
                 <h5>Find a job</h5>
                 <span>Apply what you’ve learned</span>
               </div>
-              <img src="public/images/circle6.png" className="img6" alt="" />
+              <img src="./images/circle6.png" className="img6" alt="" />
             </div>
           </div>
         </div>
@@ -227,7 +227,7 @@ const Home = () => {
         <div className="container">
           <div className="intern-flex">
             <div className="intern-img">
-              <img src="public/images/qaqas.png" alt="" />
+              <img src="./images/qaqas.png" alt="" />
             </div>
             <div className="intern-text">
               <h2>Intern Success: Our Special Bonus Offer</h2>
