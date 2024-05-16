@@ -94,11 +94,11 @@ const Home = () => {
             </div>
             <div className="companies-card">
               <div className="img">
-                <img src="./images/img-4.png" alt="" />
+                <img src="./images/img-1.png" alt="" />
               </div>
               <div className="card-text">
-                <h5>Asana</h5>
-                <p>Graphic Design Intern</p>
+                <h5>Mailchimp</h5>
+                <p>Software Engineering Intern</p>
                 <Link>
                   Get details{" "}
                     <GoArrowRight />
