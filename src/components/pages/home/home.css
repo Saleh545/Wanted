@@ -508,10 +508,11 @@ body {
         padding: 0 15px;
         width: 100%;
         height: 38%;
+        text-align: center;
     }
 
     .wrapper p {
-        font-size: 32px;
+        font-size: 29px;
     }
 
     .input {
