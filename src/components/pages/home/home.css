@@ -548,17 +548,17 @@ body {
     }
 
     .timeline-text h2 {
-        font-size: 22px;
+        font-size: 19px;
     }
 
     .timeline-text p {
-        font-size: 14px;
+        font-size: 12px;
     }
     .timeline-texts{
         padding: 0 15px;
     }
     .timeline-text{
-        margin: 71px 0 0 0;
+        margin: 61px 0 0 0;
         width: 100%;
     }
 }
