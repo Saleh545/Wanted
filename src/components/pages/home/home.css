@@ -503,6 +503,9 @@ body {
     header {
         padding: 31px 15px !important;
     }
+    header nav {
+        display: none;
+    }
 
     .wrapper {
         padding: 0 15px;
@@ -567,17 +570,19 @@ body {
     .timeline-text {
         margin: 74px 0 0 7px;
         width: 45%;
-text-align: right;
+        text-align: right;
     }
-    .timeline-text h2{
+
+    .timeline-text h2 {
         text-align: center;
     }
+
     .timeline-text2 {
         margin: 74px 0 0 14px;
         width: 45%;
         text-align: left;
     }
-  
+
 
     .timeline-text3 {
         margin: 53px 0 0 16px;
@@ -616,7 +621,7 @@ text-align: right;
     }
 
     .cv {
-        padding: 30px 15px 30px ;
+        padding: 30px 15px 30px;
     }
 
     .cv-text h3 {
@@ -667,7 +672,9 @@ text-align: right;
     .intern-text .email {
         width: 100%;
     }
-
+    .intern-img{
+        width: 100%;
+    }
     .footer-link {
         flex-direction: column;
     }
@@ -703,6 +710,7 @@ text-align: right;
     header {
         padding: 31px 45px !important;
     }
+
 
     .hero {
         padding: 0 45px;
@@ -803,13 +811,8 @@ text-align: right;
     .intern-flex {
         flex-direction: column;
     }
-
     .intern-text {
 
-        width: 100%;
-    }
-
-    .intern-img {
         width: 100%;
     }
 
