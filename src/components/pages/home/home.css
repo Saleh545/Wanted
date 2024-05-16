@@ -553,11 +553,11 @@ body {
     }
 
     .timeline-text h2 {
-        font-size: 19px;
+        font-size: 15px;
     }
 
     .timeline-text p {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .timeline-texts {
@@ -567,23 +567,27 @@ body {
     .timeline-text {
         margin: 74px 0 0 7px;
         width: 45%;
-
+text-align: right;
     }
-
+    .timeline-text h2{
+        text-align: center;
+    }
     .timeline-text2 {
-        margin: 60px 0 0 8px;
+        margin: 74px 0 0 14px;
         width: 45%;
+        text-align: left;
     }
+  
 
     .timeline-text3 {
-        margin: 4px 0 0 19px;
+        margin: 53px 0 0 16px;
         width: 55%;
         text-align: right;
     }
 
     .timeline-text4 {
-        margin: 24px 0 0 15px;
-        width: 60%;
+        margin: 55px 0 0 15px;
+        width: 51%;
         text-align: left;
     }
 
@@ -597,12 +601,13 @@ body {
     }
 
     .timeline-text5 {
-        margin: 19px 0 0 7px;
+        margin: 67px 0 0 7px;
         width: 57%;
+        text-align: center;
     }
 
     .cv-flex {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .cv-text {
@@ -611,7 +616,7 @@ body {
     }
 
     .cv {
-        padding: 30px 15px 0;
+        padding: 30px 15px 30px ;
     }
 
     .cv-text h3 {
@@ -624,7 +629,8 @@ body {
 
     .cv-img {
         width: 100%;
-        margin-top: 40px;
+        /* margin-top: 40px; */
+        height: 429px;
     }
 
     .card-flex {
@@ -657,23 +663,30 @@ body {
         font-size: 17px;
         margin: 0 0 8px 0;
     }
+
     .intern-text .email {
         width: 100%;
     }
-    .footer-link{
-flex-direction: column;    }
-    .footer-flex{
+
+    .footer-link {
+        flex-direction: column;
+    }
+
+    .footer-flex {
         flex-direction: column;
         align-items: flex-start;
-        padding: 0 15px ;
+        padding: 0 15px;
     }
-    .footer-card{
+
+    .footer-card {
         width: 100%;
     }
+
     .footer-card:first-child {
         width: 100% !important;
     }
-    .footer-bottom{
+
+    .footer-bottom {
         flex-direction: column;
         align-items: center;
         row-gap: 10px;
