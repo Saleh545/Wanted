@@ -11,14 +11,12 @@
 .footer-flex {
     display: flex;
     justify-content: space-between;
-    /* gap: 30px; */
 
 }
 
 .footer-card {
     margin-top: 40px;
-    /* display: inline; */
-    /* text-align: center; */
+
 }
 
 .footer-card:first-child {
@@ -51,8 +49,17 @@
     color: #fff;
 }
 
-.social a svg:hover {
-    color: #1976D2;
+.social .yt svg:hover {
+    color: #ff0000;
+}
+.social .fb svg:hover {
+    color: #0866FF;
+}
+.social .ins svg:hover {
+    color: #FF005C;
+}
+.social .twit svg:hover {
+    color: #000000;
 }
 
 .footer-card h5 {

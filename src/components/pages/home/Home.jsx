@@ -20,11 +20,11 @@ const Home = () => {
 
             <p>
               career
-              <div className="words">
+              <span className="words">
                 <span>steps </span>
                 <span>life</span>
                 <span>path</span>
-              </div>
+              </span>
               is Wanted !
             </p>
           </div>
@@ -49,9 +49,7 @@ const Home = () => {
                 <p>Software Engineering Intern</p>
                 <Link>
                   Get details{" "}
-                  <i>
                     <GoArrowRight />
-                  </i>
                 </Link>
               </div>
             </div>
@@ -64,9 +62,7 @@ const Home = () => {
                 <p>Product Management Intern</p>
                 <Link>
                   Get details{" "}
-                  <i>
                     <GoArrowRight />
-                  </i>
                 </Link>
               </div>
             </div>
@@ -79,9 +75,7 @@ const Home = () => {
                 <p>Human Resources Intern</p>
                 <Link>
                   Get details{" "}
-                  <i>
                     <GoArrowRight />
-                  </i>
                 </Link>
               </div>
             </div>
@@ -94,9 +88,20 @@ const Home = () => {
                 <p>Graphic Design Intern</p>
                 <Link>
                   Get details{" "}
-                  <i>
                     <GoArrowRight />
-                  </i>
+                </Link>
+              </div>
+            </div>
+            <div className="companies-card">
+              <div className="img">
+                <img src="./images/img-4.png" alt="" />
+              </div>
+              <div className="card-text">
+                <h5>Asana</h5>
+                <p>Graphic Design Intern</p>
+                <Link>
+                  Get details{" "}
+                    <GoArrowRight />
                 </Link>
               </div>
             </div>

@@ -19,16 +19,16 @@ const Foooter = () => {
                 journeys of learning and growth.
               </p>
               <div className="social">
-              <Link to="https://www.instagram.com" target="blank">
+              <Link className="ins" to="https://www.instagram.com" target="blank">
                   <FaInstagram />
                 </Link>
-              <Link to="https://www.twitter.com" target="blank">
+              <Link className="twit" to="https://www.twitter.com" target="blank">
                   <RiTwitterXFill />
                 </Link>
-              <Link to="https://www.facebook.com" target="blank">
+              <Link className="fb" to="https://www.facebook.com" target="blank">
                   <FaFacebook />
                 </Link>
-              <Link to="https://www.youtube.com" target="blank">
+              <Link className="yt" to="https://www.youtube.com" target="blank">
                   <FaYoutube />
                 </Link>
               </div>

@@ -25,9 +25,10 @@ nav ul li a {
     letter-spacing: 0.2px;
     color: #F3F3F3;
     padding-bottom: 10px;
-    transition: all 0.1s ease-in-out;
+    transition:  0.2s ease-in-out ;
+    /* border-bottom:   #42A5F5; */
 }
-nav ul li a:hover{
+nav ul li :hover{
     border-bottom: 2px solid #42A5F5;
 }
 

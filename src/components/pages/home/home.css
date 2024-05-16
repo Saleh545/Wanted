@@ -8,6 +8,9 @@
     font-family: Poppins;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 
 .container {
    width: 1144px;
@@ -42,6 +45,7 @@
 
 .wrapper {
     width: 51%;
+    height: 40%;
 }
 
 .wrapper p {
@@ -51,22 +55,22 @@
     display: inline-flex;
     flex-wrap: wrap;
 }
-.wrapper p span{
-    color: #0D47A1;
-}
+
 
 .wrapper p .words {
     overflow: hidden;
     display: block;
+height: 143px;
 }
 
 .wrapper p .words span {
     display: block;
     padding: 0 5px;
-    height: 100%;
+    height: 90%;
     color: #ffffff;
     animation: spin_words 4.5s infinite;
     text-align: center;
+    overflow: hidden;
 }
 
 .input {
@@ -132,11 +136,29 @@
     background: rgb(248, 249, 250);
     border: 1px solid rgb(233, 236, 239);
 }
+::-webkit-scrollbar {
+    width: 0px; 
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: transparent;
+}
+
 
 .companies-cards {
     display: flex;
     column-gap: 24px;
     margin-top: 24px;
+    overflow-x: scroll;
 }
 
 .companies-card .img {
@@ -171,19 +193,22 @@
     font-size: 16px;
     font-weight: 500;
     color: #1E88E5;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     margin-top: 8px;
 }
+.card-text i{
+height: auto;
 
-.card-text i svg {
+}
+.card-text  svg {
     transition: all 0.4s ease-in-out;
-    width: 15px;
-    height: 12.5px;
+    width: 20px;
+    height: 20px;
     margin-left: 5px;
 }
 
-.card-text a:hover i svg {
+.card-text a:hover  svg {
     margin-left: 10px;
 }
 
@@ -324,8 +349,8 @@
     column-gap: 24px;
 }
 
-.card-text {
-    /* text-align: center; */
+.card .card-text {
+    text-align: center;
 }
 
 .card-text h5 {
