@@ -540,6 +540,10 @@ body {
         padding: 0 15px;
     }
 
+    .timeline {
+        margin-top: 78px;
+    }
+
     .timeline h1 {
         font-size: 30px;
     }
@@ -555,14 +559,128 @@ body {
     .timeline-text p {
         font-size: 12px;
     }
-    .timeline-texts{
+
+    .timeline-texts {
         padding: 0 15px;
     }
-    .timeline-text{
-        margin: 61px 0 0 0;
+
+    .timeline-text {
+        margin: 74px 0 0 7px;
+        width: 45%;
+
+    }
+
+    .timeline-text2 {
+        margin: 60px 0 0 8px;
+        width: 45%;
+    }
+
+    .timeline-text3 {
+        margin: 4px 0 0 19px;
+        width: 55%;
+        text-align: right;
+    }
+
+    .timeline-text4 {
+        margin: 24px 0 0 15px;
+        width: 60%;
+        text-align: left;
+    }
+
+    .timeline-text4 h2 {
+        text-align: center;
+        margin-right: 45px;
+    }
+
+    .timeline-img img {
+        height: 59vh;
+    }
+
+    .timeline-text5 {
+        margin: 19px 0 0 7px;
+        width: 57%;
+    }
+
+    .cv-flex {
+        flex-direction: column;
+    }
+
+    .cv-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cv {
+        padding: 30px 15px 0;
+    }
+
+    .cv-text h3 {
+        font-size: 27px;
+    }
+
+    .cv-text p {
+        font-size: 14px;
+    }
+
+    .cv-img {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .card-flex {
+        flex-direction: column;
+        padding: 30px 15px;
+        align-items: center;
+        justify-content: center;
+        row-gap: 15px;
+    }
+
+    .card-text span {
+        font-size: 18px;
+    }
+
+    .card {
         width: 100%;
     }
+
+    .intern-flex {
+        flex-direction: column;
+        padding: 0 15px;
+    }
+
+    .intern-text h2 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .intern-text p {
+        font-size: 17px;
+        margin: 0 0 8px 0;
+    }
+    .intern-text .email {
+        width: 100%;
+    }
+    .footer-link{
+flex-direction: column;    }
+    .footer-flex{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 15px ;
+    }
+    .footer-card{
+        width: 100%;
+    }
+    .footer-card:first-child {
+        width: 100% !important;
+    }
+    .footer-bottom{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+    }
+
 }
+
 
 @media (min-width: 769px) and (max-width: 992px) {
     .container {
