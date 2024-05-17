@@ -431,6 +431,7 @@ body {
     top: 12px;
     width: 71px;
     height: 112px;
+    z-index: -1;
 }
 
 .card .img5 {
@@ -707,7 +708,9 @@ body {
     .footer-card {
         width: 100%;
     }
-
+    .footer-link{
+        margin: 0 !important;
+    }
     .footer-card:first-child {
         width: 100% !important;
     }
