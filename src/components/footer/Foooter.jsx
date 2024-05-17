@@ -54,7 +54,6 @@ const Foooter = () => {
             <Link>Terms of Use</Link>
             <Link>Privacy Policy</Link>
             <p>© 2024 Wanted All Rights Reserved</p>
-            <span>© Created By Saleh</span>
           </div>
         </div>
       </div>
