@@ -254,6 +254,9 @@ const Home = () => {
         </div>
       </div>
       <Foooter />
+
+
+      
     </div>
   );
 };
