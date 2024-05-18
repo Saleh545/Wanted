@@ -80,6 +80,7 @@ nav ul li :hover {
         padding: 20px 15px !important;
         position: relative;
         display: flex;
+        align-items: center;
     }
 
     .hamburger-react {
