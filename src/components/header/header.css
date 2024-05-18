@@ -4,9 +4,11 @@ header {
     justify-content: space-between;
     z-index: 999;
 }
-.header{
+
+.header {
     z-index: 999;
 }
+
 .logo a {
     font-size: 24px;
     font-weight: 400;
@@ -25,10 +27,11 @@ nav ul li a {
     letter-spacing: 0.2px;
     color: #F3F3F3;
     padding-bottom: 10px;
-    transition:  0.2s ease-in-out ;
+    transition: 0.2s ease-in-out;
     /* border-bottom:   #42A5F5; */
 }
-nav ul li :hover{
+
+nav ul li :hover {
     border-bottom: 2px solid #42A5F5;
 }
 
@@ -39,7 +42,8 @@ nav ul li :hover{
     color: #F3F3F3;
     margin-right: 30.5px;
 }
-.login a:last-child{
+
+.login a:last-child {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.2px;
@@ -48,6 +52,132 @@ nav ul li :hover{
     padding: 12px 20px;
     border-radius: 6px;
 }
-.login a:last-child:hover{
+
+.login a:last-child:hover {
     background-color: #56b3fe;
 }
+
+.resp-bar-close {
+    display: contents;
+    width: 100%;
+}
+
+.hamburger-react {
+    color: #fff;
+    z-index: 999;
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+
+
+
+@media (max-width: 576px) {}
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 20px 15px !important;
+        position: relative;
+        display: flex;
+    }
+
+    .hamburger-react {
+        display: block;
+    }
+
+    .resp-bar {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        right: 0;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 70%;
+        backdrop-filter: blur(10px);
+        background-color: rgba(66, 165, 245, 0);
+        z-index: 999;
+    }
+
+    .resp-bar-close {
+        display: none;
+        overflow: hidden;
+        opacity: 0;
+
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .login {
+        margin-top: 70px;
+    }
+
+    .login a:last-child {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .login a:first-child {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        padding: 20px 15px !important;
+        position: relative;
+        display: flex;
+    }
+
+    .hamburger-react {
+        display: block;
+    }
+
+    .resp-bar {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        right: 0;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 70%;
+        backdrop-filter: blur(10px);
+        background-color: rgba(66, 165, 245, 0);
+        z-index: 999;
+    }
+
+    .resp-bar-close {
+        display: none;
+        overflow: hidden;
+        opacity: 0;
+
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .login {
+        margin-top: 70px;
+    }
+
+    .login a:last-child {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .login a:first-child {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1700px) {}

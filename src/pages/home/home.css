@@ -508,14 +508,7 @@ body {
 }
 
 @media (max-width: 768px) {
-    header {
-        padding: 31px 15px !important;
-    }
-
-    header nav {
-        display: none;
-    }
-
+  
     .wrapper {
         padding: 0 15px;
         width: 100%;

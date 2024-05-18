@@ -1,10 +1,10 @@
 import "./home.css";
-import Header from "../../header/Header";
 import { CiSearch } from "react-icons/ci";
 import { Link } from "react-router-dom";
 import { GoArrowRight } from "react-icons/go";
 import { MdOutlineMail } from "react-icons/md";
-import Foooter from "../../footer/Foooter";
+import Header from "../../components/header/Header";
+import Foooter from "../../components/footer/Foooter";
 
 const Home = () => {
   return (
