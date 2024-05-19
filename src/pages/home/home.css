@@ -518,7 +518,7 @@ color: #2196F3;
         padding: 0 15px;
         width: 100%;
         height: 38%;
-        text-align: center;
+        text-align: left;
     }
 
     .wrapper p {
@@ -672,7 +672,9 @@ color: #2196F3;
         flex-direction: column;
         padding: 0 15px;
     }
-
+    .intern-text {
+    margin-left: 17px;
+    }
     .intern-text h2 {
         font-size: 26px;
         text-align: center;
