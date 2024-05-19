@@ -170,7 +170,6 @@ const Home = () => {
                   skills and experiences with confidence as you transition into
                   the next phase of your career.
                 </p>
-                <Link>Learn more</Link>
               </div>
               <div className="cv-img">
                 <img src="./images/cv.png" alt="" />
@@ -183,39 +182,33 @@ const Home = () => {
         <div className="container">
           <div className="card-flex">
             <div className="card">
-              <img src="./images/cirle1.png" className="img1" alt="" />
-              <div className="card-img">
-                <img src="./images/join.png" alt="" />
-              </div>
-              <div className="card-text">
-                <h5>Join team</h5>
-                <span>Hiring managers look for soft skills</span>
-              </div>
-              <img className="img2" src="./images/circle2.png" alt="" />
-            </div>
-
-            <div className="card">
-              <img src="./images/circle3.png" className="img3" alt="" />
-              <div className="card-img">
-                <img src="./images/get.png" alt="" />
-              </div>
-              <div className="card-text">
-                <h5>Get experience</h5>
-                <span>Work-simulated environment</span>
-              </div>
-              <img src="./images/circle4.png" className="img4" alt="" />
-            </div>
-
-            <div className="card">
-              <img src="./images/circle5.png" className="img5" alt="" />
               <div className="card-img">
                 <img src="./images/find.png" alt="" />
               </div>
               <div className="card-text">
                 <h5>Find a job</h5>
-                <span>Apply what you’ve learned</span>
+                <span>Apply to the vacancy that suits</span>
               </div>
-              <img src="./images/circle6.png" className="img6" alt="" />
+            </div>
+
+            <div className="card">
+              <div className="card-img">
+                <img src="./images/get.png" alt="" />
+              </div>
+              <div className="card-text">
+                <h5>Get experience</h5>
+                <span>Do your hybrid practice</span>
+              </div>
+            </div>
+
+            <div className="card">
+              <div className="card-img">
+                <img src="./images/join.png" alt="" />
+              </div>
+              <div className="card-text">
+                <h5>Join a Team</h5>
+                <span>Individual, Teamwork opportunity</span>
+              </div>
             </div>
           </div>
         </div>
@@ -253,10 +246,71 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <div className="here">
+        <div className="container">
+          <h3>Here's What Our Users Say </h3>
+          <div className="here-flex">
+
+            <div className="here-card">
+              <div className="here-top">
+                <img src="./images/mira.png" alt="" />
+                <h4>Mira Herwitz</h4>
+              </div>
+              <div className="here-text">
+                <p>
+                  <span>"</span>
+                  The variety of prestigious internships listed here is
+                  unmatched. I found exactly what I was looking for{" "}
+                  <span>"</span>
+                </p>
+              </div>
+            </div>
+            <div className="here-card livia">
+              <div className="here-top">
+                <img src="./images/livia.png" alt="" />
+                <h4>Livia Dokidis</h4>
+              </div>
+              <div className="here-text">
+                <p>
+                  <span>"</span>
+                  Finding and applying for internships has never been this easy. Great job on the design
+                  <span>"</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="here-flex2">
+
+            <div className="here-card talan">
+              <div className="here-top">
+                <img src="./images/talan.png" alt="" />
+                <h4>Talan Culhane</h4>
+              </div>
+              <div className="here-text">
+                <p>
+                  <span>"</span>
+                  Highly satisfied with the internships listed here. It's my go-to site for career opportunities
+                  <span>"</span>
+                </p>
+              </div>
+            </div>
+            <div className="here-card jaylon">
+              <div className="here-top">
+                <img src="./images/jaylon.png" alt="" />
+                <h4>Jaylon Botosh</h4>
+              </div>
+              <div className="here-text">
+                <p>
+                  <span>"</span>
+                  Thanks to this platform, I secured an internship at a Fortune 500 company. Couldn't be happier                  <span>"</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <Foooter />
-
-
-      
     </div>
   );
 };
