@@ -103,55 +103,28 @@ const Home = () => {
           </div>
         </div>
         <div className="timeline">
-          <h1>Your project timeline:</h1>
+          <div className="container">
+            <h1>Your project timeline:</h1>
 
-          <div className="timeline-img">
-            <img src="./images/timeline.png" alt="" />
-          </div>
-
-          <div className="timeline-texts timeline-texts1">
-            <div className="timeline-text">
-              <h2>Product</h2>
-              <p>
-                In the Product section, you will get acquainted with what
-                practical tasks you will perform during the time period given to
-                you.
-              </p>
-            </div>
-            <div className="timeline-text2 timeline-text">
-              <h2>Team</h2>
-              <p>
-                You can do the practice individually or as a team. If you want
-                to work as a team, you can see your friends in the team section
-                and communicate at the same time
-              </p>
-            </div>
-          </div>
-          <div className=" timeline-texts2">
-            <div className="timeline-text3 timeline-text">
-              <h2>Task Done</h2>
-              <p>
-                In the task done section, you have to complete certain tasks
-                within the time given to you, and you can see them in this
-                section as you lose.
-              </p>
-            </div>
-            <div className="timeline-text4 timeline-text">
-              <h2>Calendar</h2>
-              <p>
-                You can place the tasks given in the calendar section on the
-                calendar and set a deadline for yourself.
-              </p>
-            </div>
-          </div>
-          <div className="timeline-texts timeline-texts5">
-            <div className="timeline-text5 timeline-text">
-              <h2>Submit your project</h2>
-              <p>
-                Finally, you need to complete and submit the practical tasks.
-                The other side is ready to evaluate your answers. Thank you for
-                choosing Wanted as the start of your career
-              </p>
+            <div className="timeline-grid">
+              <div className="timeline-texts ">
+                <h2>Product</h2>
+                <p>
+                  The product details page offers all necessary project
+                  information, including a clear 4-week timeline. Your main
+                  objective is to deliver a viable solution within this
+                  timeframe
+                </p>
+              </div>
+              <div className="timeline-texts timeline-texts2 ">
+                <h2>Team</h2>
+                <p>
+                  Explore your team's profiles to learn about them, including
+                  links to their professional accounts and past projects. Feel
+                  free to drop them a message to introduce yourself and say
+                  hello!{" "}
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -251,7 +224,6 @@ const Home = () => {
         <div className="container">
           <h3>Here's What Our Users Say </h3>
           <div className="here-flex">
-
             <div className="here-card">
               <div className="here-top">
                 <img src="./images/mira.png" alt="" />
@@ -274,14 +246,14 @@ const Home = () => {
               <div className="here-text">
                 <p>
                   <span>"</span>
-                  Finding and applying for internships has never been this easy. Great job on the design
+                  Finding and applying for internships has never been this easy.
+                  Great job on the design
                   <span>"</span>
                 </p>
               </div>
             </div>
           </div>
           <div className="here-flex2">
-
             <div className="here-card talan">
               <div className="here-top">
                 <img src="./images/talan.png" alt="" />
@@ -290,7 +262,8 @@ const Home = () => {
               <div className="here-text">
                 <p>
                   <span>"</span>
-                  Highly satisfied with the internships listed here. It's my go-to site for career opportunities
+                  Highly satisfied with the internships listed here. It's my
+                  go-to site for career opportunities
                   <span>"</span>
                 </p>
               </div>
@@ -303,7 +276,8 @@ const Home = () => {
               <div className="here-text">
                 <p>
                   <span>"</span>
-                  Thanks to this platform, I secured an internship at a Fortune 500 company. Couldn't be happier                  <span>"</span>
+                  Thanks to this platform, I secured an internship at a Fortune
+                  500 company. Couldn't be happier <span>"</span>
                 </p>
               </div>
             </div>

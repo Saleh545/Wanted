@@ -8,6 +8,7 @@
     font-family: Poppins;
     box-sizing: border-box;
 }
+
 body {
     overflow-x: hidden;
 }
@@ -53,6 +54,7 @@ body {
     display: inline-flex;
     flex-wrap: wrap;
 }
+
 .wrapper p .words {
     overflow: hidden;
     display: block;
@@ -100,6 +102,7 @@ body {
     height: 100%;
     color: #1E88E5;
 }
+
 @keyframes spin_words {
     25% {
         transform: translateY(-100%);
@@ -210,15 +213,38 @@ body {
     position: relative;
 }
 
-.timeline-img {
-    width: 100%;
-    position: absolute;
-    left: 0;
-    z-index: -1;
+.timeline-grid {
+    background-image: url("../../../public/images/timeline.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
 }
 
-.timeline-img img {
-    width: 100%;
+.timeline-texts {
+
+    margin: 59px 0 0 110px;
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline-texts h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.timeline-texts p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #6C757D;
+}
+.timeline-texts2{
+    margin: 59px 73px 0 0px;
 }
 
 .timeline h1 {
@@ -227,59 +253,6 @@ body {
     text-align: center;
 }
 
-.timeline-texts {
-    z-index: 999;
-    display: flex;
-    margin: 71px 0 0 127px;
-}
-
-.timeline-texts2 {
-    margin: 0 0 0 0;
-    display: flex;
-    align-items: center;
-}
-
-.timeline-text {
-    width: 37%;
-    text-align: center;
-    margin: 0 0 121px;
-}
-
-.timeline-text h2 {
-    font-size: 40px;
-    font-weight: 600;
-}
-
-.timeline-text p {
-    font-size: 17px;
-    font-weight: 300;
-    color: #6C757D;
-}
-
-.timeline-text2 {
-    margin: 0 0 0 139px;
-    width: 37%;
-}
-
-.timeline-text3 {
-    width: 37%;
-    margin: 193px 0 0 54px;
-}
-
-.timeline-text4 {
-    width: 37%;
-    margin: 103px 0 0 115px;
-}
-
-.timeline-texts5 {
-    justify-content: center;
-}
-
-.timeline-text5 {
-    width: 49%;
-    text-align: center;
-    margin: 190px 75px 0 0px;
-}
 
 .cv {
     background-color: #0D47A1;
@@ -436,67 +409,80 @@ body {
 .here {
     margin-top: 100px;
 }
-.here h3{
+
+.here h3 {
     font-size: 36px;
-font-weight: 600;
-margin-bottom: 30px ;
+    font-weight: 600;
+    margin-bottom: 30px;
 }
-.here-card{
+
+.here-card {
     border-radius: 0px 30px 30px 30px;
     background-color: #E3F2FD;
     padding: 14px 8px 14px 12px;
     width: 29%;
 }
-.here-top{
+
+.here-top {
     display: flex;
     align-items: center;
     column-gap: 8px;
     margin-left: 10px;
 }
-.here-top img{
+
+.here-top img {
     border-radius: 100%;
     width: 32px;
     height: 32px;
 }
-.here-top h4{
+
+.here-top h4 {
     font-size: 16px;
-font-weight: 300;
-color: #6C757D;
-letter-spacing: 0.2px;
+    font-weight: 300;
+    color: #6C757D;
+    letter-spacing: 0.2px;
 }
-.here-card p{
+
+.here-card p {
     font-size: 16px;
-font-weight: 400;
-letter-spacing: 0.2px;
-text-align: left;
-text-indent: -11px;
-line-height: 140%;}
-.here-card  span{
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    text-align: left;
+    text-indent: -11px;
+    line-height: 140%;
+}
+
+.here-card span {
     font-size: 24px;
-font-weight: 600;
-color: #2196F3;
+    font-weight: 600;
+    color: #2196F3;
 }
-.here-text{
+
+.here-text {
     padding-left: 12px;
 }
-.here-flex{
+
+.here-flex {
     display: flex;
     column-gap: 200px;
 }
 
-.here-flex2{
+.here-flex2 {
     display: flex;
     justify-content: end;
     column-gap: 200px;
     margin-top: 20px;
 }
-.livia{
+
+.livia {
     border-radius: 30px 30px 0px 30px;
 }
-.talan{
+
+.talan {
     border-radius: 30px 0px 30px 30px;
 }
-.jaylon{
+
+.jaylon {
     border-radius: 30px 30px 30px 0px;
 }
 
@@ -523,6 +509,11 @@ color: #2196F3;
 
     .wrapper p {
         font-size: 27px;
+    }
+
+    .wrapper p .words {
+
+        height: 40px;
     }
 
     .input {
@@ -554,76 +545,25 @@ color: #2196F3;
         margin-top: 78px;
     }
 
+ 
+    .timeline-grid {
+        background-image: url(/public/images/timeline.png);
+        background-size: 100% 76%;
+    }
     .timeline-texts {
-        margin: 0;
+        margin: 40px 0 0 30px;
     }
-
-    .timeline h1 {
-        font-size: 30px;
-        margin-bottom: 30px;
-    }
-
-    .timeline-img {
-        padding: 0 20px 0 20px;
-        /* width: 428px; */
-        height: 385px;
-    }
-
-    .timeline-img img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .timeline-text h2 {
-        font-size: 15px;
-    }
-
-    .timeline-text p {
-        font-size: 10px;
-    }
-
-    .timeline-texts {
-        padding: 0 15px;
-    }
-
-    .timeline-text {
-        margin: 30px 0 0 7px;
-        width: 45%;
-        text-align: right;
-    }
-
-    .timeline-text h2 {
-        text-align: center;
-    }
-
-    .timeline-text2 {
-        margin: 18px 0 0 10px;
-        width: 45%;
-        text-align: left;
+    .timeline-texts2 {
+        margin: 31px 22px 0 0px;
     }
 
 
-    .timeline-text3 {
-        margin: 16% 0 0 37px;
-        width: 32%;
-        text-align: right;
+    .timeline-texts h2 {
+        font-size: 12px;
     }
 
-    .timeline-text4 {
-        margin: 55px 0 0 15px;
-        width: 41%;
-        text-align: left;
-    }
-
-    .timeline-text4 h2 {
-        text-align: center;
-        margin-right: 45px;
-    }
-
-    .timeline-text5 {
-        margin: 76px 0 0 7px;
-        width: 57%;
-        text-align: center;
+    .timeline-texts p {
+        font-size: 12px;
     }
 
     .cv-flex {
@@ -672,9 +612,11 @@ color: #2196F3;
         flex-direction: column;
         padding: 0 15px;
     }
+
     .intern-text {
-    margin-left: 17px;
+        margin-left: 17px;
     }
+
     .intern-text h2 {
         font-size: 26px;
         text-align: center;
@@ -692,22 +634,27 @@ color: #2196F3;
     .intern-img {
         width: 100%;
     }
-    .here h3{
+
+    .here h3 {
         text-align: center;
     }
-    .here-flex{
+
+    .here-flex {
         flex-direction: column;
         align-items: center;
         gap: 20px;
     }
-    .here{
+
+    .here {
         padding: 0 20px;
-        
+
     }
-    .here-card{
+
+    .here-card {
         width: 100%;
     }
-    .here-flex2{
+
+    .here-flex2 {
         flex-direction: column;
         align-items: center;
         gap: 20px;
@@ -717,6 +664,7 @@ color: #2196F3;
     .footer-link {
         flex-direction: column;
     }
+
     .footer-flex {
         flex-direction: column;
         align-items: flex-start;
@@ -755,6 +703,7 @@ color: #2196F3;
     header {
         padding: 31px 45px !important;
     }
+
     .hero {
         padding: 0 45px;
     }
@@ -773,62 +722,7 @@ color: #2196F3;
 
     }
 
-    .timeline-texts {
-        z-index: 999;
-        display: flex;
-        margin: 0px 0 0 17px;
-    }
-
-    .timeline {
-        padding: 0 45px;
-        width: 100%;
-    }
-
-    .timeline-text {
-        width: 50%;
-        text-align: center;
-        margin: 42px 0px 0 1px;
-    }
-
-    .timeline-img {
-        padding: 0 45px 0 25px;
-        width: 100%;
-
-    }
-
-    .timeline-text h2 {
-        font-size: 30px;
-    }
-
-    .timeline-text p {
-        font-size: 17px;
-    }
-
-
-    .timeline-text2 {
-        margin: 50px 0 0 0;
-        width: 46%;
-    }
-
-    .timeline-text3 {
-        width: 48%;
-        margin: 110px 0 0 9px;
-    }
-
-    .timeline-text4 {
-        width: 43%;
-        margin: 87px 0 0 0;
-    }
-
-    .timeline-text5 {
-        width: 51%;
-        text-align: center;
-        margin: 125px 0px 0 0;
-    }
-
-    .timeline-texts5 {
-        justify-content: center;
-    }
+    
 
     .cv-flex {
         flex-direction: column-reverse;
@@ -849,7 +743,8 @@ color: #2196F3;
         align-items: center;
         row-gap: 20px;
     }
-    .card{
+
+    .card {
         width: 100%;
     }
 
@@ -876,19 +771,22 @@ color: #2196F3;
         margin-top: 26px;
     }
 
-    .here h3{
+    .here h3 {
         text-align: center;
     }
-    .here-flex{
+
+    .here-flex {
         flex-direction: column;
         align-items: center;
         padding: 0 45px;
         gap: 20px;
     }
-    .here-card{
+
+    .here-card {
         width: 100%;
     }
-    .here-flex2{
+
+    .here-flex2 {
         flex-direction: column;
         align-items: center;
         padding: 0 45px;
