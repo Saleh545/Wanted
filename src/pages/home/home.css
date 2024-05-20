@@ -215,7 +215,7 @@ body {
 
 .timeline-grid {
     background-image: url("../../../public/images/timeline.png");
-    background-size: 100% 100%;
+    background-size: 100% 80%;
     background-repeat: no-repeat;
     display: grid;
     align-items: center;
@@ -227,7 +227,7 @@ body {
 
 .timeline-texts {
 
-    margin: 59px 0 0 110px;
+    margin: 33px 0 0 83px;
     display: flex;
     flex-direction: column;
 }
@@ -243,8 +243,35 @@ body {
     font-weight: 300;
     color: #6C757D;
 }
-.timeline-texts2{
-    margin: 59px 73px 0 0px;
+
+.timeline-texts2 {
+    margin: 30px 73px 0 0px;
+}
+
+.timeline-texts4 {
+    margin: 70px 0 0 119px;
+}
+
+.timeline-texts3 {
+    margin: 78px 70px 0 0;
+}
+
+.timeline-texts5 {
+    grid-column-start: 1;
+    /* 1. sütuna başla */
+    grid-column-end: 3;
+    /* 3. sütunda bitir */
+    width: 87%;
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timeline-texts5 p {
+    width: 62%;
+    text-align: center;
 }
 
 .timeline h1 {
@@ -545,18 +572,32 @@ body {
         margin-top: 78px;
     }
 
- 
+
     .timeline-grid {
         background-image: url(/public/images/timeline.png);
         background-size: 100% 76%;
     }
+
     .timeline-texts {
         margin: 40px 0 0 30px;
     }
+
     .timeline-texts2 {
         margin: 31px 22px 0 0px;
     }
 
+    .timeline-texts4 {
+        margin: 15px 0 0 61px;
+    }
+
+    .timeline-texts3 {
+        margin: 35px 39px 0 0;
+    }
+
+    .timeline-texts5 {
+        margin: 10px 0 0 0;
+        width: 100%;
+    }
 
     .timeline-texts h2 {
         font-size: 12px;
@@ -722,7 +763,9 @@ body {
 
     }
 
-    
+    .timeline-grid {
+        background-size: 100% 79%;
+    }
 
     .cv-flex {
         flex-direction: column-reverse;

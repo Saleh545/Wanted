@@ -125,6 +125,23 @@ const Home = () => {
                   hello!{" "}
                 </p>
               </div>
+              <div className="timeline-texts timeline-texts4 ">
+                <h2>Task Done</h2>
+                <p>
+                Most companies employ task management tools. We've designed one for you to organize and track tasks effectively, showcasing your proficiency in task management to hiring managers!
+                </p>
+              </div>
+              <div className="timeline-texts timeline-texts3 ">
+                <h2>Calendar</h2>
+                <p>
+                Efficient communication within your team is vital. Access our team calendar to view everyone's availability and simplify meeting scheduling. We've already scheduled the first meeting for you!
+                </p>
+              </div>
+              <div className="timeline-texts timeline-texts5 ">
+                <h2>Submit your project</h2>
+                <p>
+                You've completed your project and deployed it. We're excited to see your work! You now have the chance to present it to professionals, gaining valuable feedback to boost your confidence in interviews!                </p>
+              </div>
             </div>
           </div>
         </div>
