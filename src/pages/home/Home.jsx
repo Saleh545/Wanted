@@ -5,7 +5,6 @@ import { GoArrowRight } from "react-icons/go";
 import { MdOutlineMail } from "react-icons/md";
 import Header from "../../components/header/Header";
 import Foooter from "../../components/footer/Foooter";
-
 const Home = () => {
   return (
     <div className="home-page">
@@ -28,7 +27,6 @@ const Home = () => {
               is Wanted !
             </p>
           </div>
-
           <div className="input">
             <input type="search" placeholder="Search for any internships" />
             <i>
@@ -105,7 +103,6 @@ const Home = () => {
         <div className="timeline">
           <div className="container">
             <h1>Your project timeline:</h1>
-
             <div className="timeline-grid">
               <div className="timeline-texts ">
                 <h2>Product</h2>
@@ -203,7 +200,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
       <div className="intern">
         <div className="container">
           <div className="intern-flex">
@@ -226,17 +222,10 @@ const Home = () => {
                 upon successful completion of the internship, acknowledging
                 their hard work and contributions.
               </p>
-              <div className="input email">
-                <input type="search" placeholder="Email address" />
-                <i>
-                  <MdOutlineMail />{" "}
-                </i>
-              </div>
             </div>
           </div>
         </div>
       </div>
-
       <div className="here">
         <div className="container">
           <h3>Here's What Our Users Say </h3>
@@ -305,5 +294,4 @@ const Home = () => {
     </div>
   );
 };
-
 export default Home;

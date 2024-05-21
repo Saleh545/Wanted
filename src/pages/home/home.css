@@ -250,6 +250,7 @@ body {
 
 .timeline-texts4 {
     margin: 70px 0 0 119px;
+    text-align: right;
 }
 
 .timeline-texts3 {
@@ -258,9 +259,7 @@ body {
 
 .timeline-texts5 {
     grid-column-start: 1;
-    /* 1. sütuna başla */
     grid-column-end: 3;
-    /* 3. sütunda bitir */
     width: 87%;
     margin-top: 100px;
     text-align: center;
@@ -278,6 +277,7 @@ body {
     font-size: 40px;
     font-weight: 600;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 
@@ -344,6 +344,7 @@ body {
     display: flex;
     justify-content: center;
     column-gap: 24px;
+    flex-direction: row-reverse;
 }
 
 .card .card-text {
@@ -413,6 +414,7 @@ body {
     font-size: 36px;
     font-weight: 600;
     margin-bottom: 32px;
+    color: #0D47A1;
 }
 
 .intern-text p span {
@@ -570,12 +572,11 @@ body {
 
     .timeline {
         margin-top: 78px;
+        padding: 0 15px;
     }
-
-
     .timeline-grid {
         background-image: url(/public/images/timeline.png);
-        background-size: 100% 76%;
+        background-size: 100% 72%;
     }
 
     .timeline-texts {
@@ -587,15 +588,15 @@ body {
     }
 
     .timeline-texts4 {
-        margin: 15px 0 0 61px;
+        margin: 0px 0 0 35px;
     }
 
     .timeline-texts3 {
-        margin: 35px 39px 0 0;
+        margin: 25px 39px 0 0;
     }
 
     .timeline-texts5 {
-        margin: 10px 0 0 0;
+        margin: 0 0 35px 6px;
         width: 100%;
     }
 
@@ -762,7 +763,9 @@ body {
         overflow: scroll;
 
     }
-
+.timeline{
+    padding: 0 29px;
+}
     .timeline-grid {
         background-size: 100% 79%;
     }
