@@ -220,7 +220,7 @@ const Home = () => {
               <p>
                 3. <span>Rewarding Achievement:</span> Present a special bonus
                 upon successful completion of the internship, acknowledging
-                their hard work and contributions.
+                their hard work and contributions. 
               </p>
             </div>
           </div>

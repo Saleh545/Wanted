@@ -1,0 +1,68 @@
+.sign-up-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.sign-up-container h4{
+    font-size: 36px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0.2px;
+text-align: center;
+}
+.radio-group {
+    display: flex !important;
+    -webkit-flex-direction: row !important;
+    justify-content: center;
+    gap: 16px;
+    color: white !important;
+}
+
+.css-46bh2p-MuiCardContent-root {
+    padding: 0 !important;
+}
+
+.role-card {
+    width: 354px;
+    height: 210px;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid rgb(147, 155, 164);
+    box-shadow: none !important;
+    padding: 36px 20px 24px 20px !important;
+    border-radius: 8px !important;
+}
+
+.role-card.selected {
+    background: rgb(227, 242, 253);
+    border: 2px solid rgb(33, 150, 243);
+}
+
+.role-card.selected .circle {
+    border: 2px solid rgb(25, 118, 210) !important;
+
+}
+
+.circle {
+    position: absolute;
+    top: 24px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid rgb(147, 155, 164);
+}
+
+.role-card svg {
+    width: 40px;
+    height: 40px;
+}
+
+.role-card h6 {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    margin-top: 24px;
+}
