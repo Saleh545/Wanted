@@ -4,18 +4,21 @@
     align-items: center;
     margin-top: 40px;
 }
-.sign-up-container h4{
+
+.sign-up-container h4 {
     font-size: 36px;
-font-weight: 400;
-line-height: 140%;
-letter-spacing: 0.2px;
-text-align: center;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-bottom: 18px;
 }
+
 .radio-group {
     display: flex !important;
     -webkit-flex-direction: row !important;
     justify-content: center;
-    gap: 16px;
+    gap: 24px;
     color: white !important;
 }
 
@@ -65,4 +68,34 @@ text-align: center;
     font-weight: 400;
     letter-spacing: 0.2px;
     margin-top: 24px;
+}
+
+.sign-up-container button {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    text-transform: none;
+    background: rgb(66, 165, 245);
+    margin-top: 80px !important;
+}
+
+.sign-up-container button:hover {
+    background: rgb(92, 182, 255);
+}
+
+.css-vx71s7-MuiTypography-root {
+    font-size: 16px !important;
+    margin-top: 24px !important;
+    font-family: poppins !important;
+}
+
+.css-11huu28-MuiTypography-root {
+    font-size: 16px !important;
+    line-height: 140% !important;
+    letter-spacing: 0.2px !important;
+}
+.css-11huu28-MuiTypography-root a{
+    text-decoration: underline;
 }
