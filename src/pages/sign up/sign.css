@@ -96,6 +96,35 @@
     line-height: 140% !important;
     letter-spacing: 0.2px !important;
 }
-.css-11huu28-MuiTypography-root a{
+
+.css-11huu28-MuiTypography-root a {
     text-decoration: underline;
 }
+
+@media (max-width: 576px) {}
+
+@media (max-width: 768px) {
+
+    .sign-up-container h4 {
+        font-size: 24px;
+    }
+
+    .role-card h6 {
+        font-size: 20px;
+    }
+
+    .sign-up-container {
+        padding: 0 15px;
+    }
+
+    body {
+        overflow: scroll !important;
+        ;
+    }
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1700px) {}
