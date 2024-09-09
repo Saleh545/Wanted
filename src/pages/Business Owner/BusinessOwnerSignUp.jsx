@@ -1,10 +1,24 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./BusinessOwnerSignUp.css";
 
 const BusinessOwnerSignUp = () => {
   return (
     <div>
-      <h1>Business Owner Sign Up</h1>
-      {/* İş Sahibi kayıt formu burada olacak */}
+      <div className="container">
+        <header>
+          <div className="logo">
+            <Link to="/">wanted</Link>
+          </div>
+        </header>
+      </div>
+      <main className="login-bg">
+        <div className="login-form-area">
+          <div className="container">
+            
+          </div>
+        </div>
+      </main>
     </div>
   );
 };

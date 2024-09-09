@@ -13,7 +13,7 @@ const Foooter = () => {
         <div className="container">
           <div className="footer-flex">
             <div className="footer-card">
-              <Link className="logo">wanted</Link>
+              <Link className="logo">My Mentor</Link>
               <p>
                 Begin new experiences here – guiding users on transformative
                 journeys of learning and growth.
@@ -45,7 +45,7 @@ const Foooter = () => {
             <div className="footer-card">
               <h5>Contact</h5>
               <Link>Baku, Azerbaijan</Link>
-              <Link to={"mailto:wanted@gmail.com"}>wanted@gmail.com</Link>
+              <Link to={"mailto:wanted@gmail.com"}>mymentor@gmail.com</Link>
               <Link to={"tel:+994705621269"}>+994 70 562 12 69</Link>
             </div>
             </div>
@@ -53,7 +53,7 @@ const Foooter = () => {
           <div className="footer-bottom">
             <Link>Terms of Use</Link>
             <Link>Privacy Policy</Link>
-            <p>© 2024 Wanted All Rights Reserved</p>
+            <p>© 2024 My Mentor All Rights Reserved</p>
           </div>
         </div>
       </div>

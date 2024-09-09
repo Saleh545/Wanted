@@ -71,22 +71,16 @@ nav ul li :hover {
 }
 
 
-
-@media (max-width: 576px) {}
-
 @media (max-width: 768px) {
-
     header {
         padding: 20px 15px !important;
         position: relative;
         display: flex;
         align-items: center;
     }
-
     .hamburger-react {
         display: block;
     }
-
     .resp-bar {
         display: flex;
         flex-direction: column;
@@ -106,7 +100,6 @@ nav ul li :hover {
         display: none;
         overflow: hidden;
         opacity: 0;
-
     }
 
     nav ul {

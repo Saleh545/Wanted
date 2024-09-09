@@ -6,19 +6,15 @@ import { Turn as Hamburger } from 'hamburger-react'
 
 const Header = () => {
   const [open, setOpen]= useState(false)
-
   const toggleMenu= ()=>{
     open ? (document.body.style.overflow = 'visible') : (document.body.style.overflow='hidden')
-
-    setOpen(!open)
-  }
+    setOpen(!open)}
   return (
     <div className='header'>
       <div className="container">
-
    <header>
     <div className="logo">
-      <Link>wanted</Link>
+      <Link>My Mentor</Link>
     </div>
     <div className={open?"resp-bar " :"resp-bar-close"}>
     <nav>
@@ -29,7 +25,6 @@ const Header = () => {
         <li><Link>Vacancy</Link></li>
       </ul>
     </nav>
-
     <div className="login">
       <Link to="login" >Log in</Link>
       <Link to="sign-up" >Sign up</Link>

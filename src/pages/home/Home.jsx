@@ -24,7 +24,7 @@ const Home = () => {
                 <span>life</span>
                 <span>path</span>
               </span>
-              is Wanted !
+              is My Mentor !
             </p>
           </div>
           <div className="input">
@@ -52,7 +52,7 @@ const Home = () => {
             </div>
             <div className="companies-card">
               <div className="img">
-                <img src="./images/img-2.png" alt="" />
+                <img src="./images/azercell.svg" alt="" />
               </div>
               <div className="card-text">
                 <h5>Azercell</h5>

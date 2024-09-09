@@ -1,10 +1,28 @@
+import { TextField } from '@mui/material';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const StudentSignUp = () => {
   return (
     <div>
-      <h1>Student Sign Up</h1>
+ <div className="container">
+ <header>
+    <div className="logo">
+      <Link to="/">My Mentor</Link>
     </div>
+   </header>
+      </div>
+
+     <div className="container">
+     <TextField
+          id="outlined-multiline-flexible"
+          label="Multiline"
+          multiline
+          maxRows={4}
+        />
+     </div>
+    </div>
+
   );
 };
 

@@ -14,6 +14,7 @@ const SignUp = () => {
     initialValues: {
       role: '',
     },
+    
     validationSchema: Yup.object({
       role: Yup.string().required('Please select a role'),
     }),
@@ -45,7 +46,7 @@ const SignUp = () => {
       <div className="container">
  <header>
     <div className="logo">
-      <Link to="/">wanted</Link>
+      <Link to="/">My Mentor</Link>
     </div>
    </header>
       </div>
@@ -60,8 +61,7 @@ const SignUp = () => {
         onChange={handleRoleChange}
         className="radio-group">
 
-        <Card
-          className={`role-card ${selectedRole === 'BusinessOwner' ? 'selected' : ''}`}
+        <Card className={`role-card ${selectedRole === 'BusinessOwner' ? 'selected' : ''}`}
           onClick={() => handleCardClick('BusinessOwner')}  >
           <CardContent>
             <Box
@@ -75,12 +75,10 @@ const SignUp = () => {
               label={
                 <Box>
                   <GoPerson />
-
                   <Typography variant="h6">
                     I'm a Business Owner, hiring for a project
                   </Typography>
-                </Box>
-              }
+                </Box>}
               sx={{ m: 0 }}
             />
           </CardContent>
@@ -104,8 +102,7 @@ const SignUp = () => {
                   <Typography variant="h6">
                     I'm a student, looking for work
                   </Typography>
-                </Box>
-              }
+                </Box>}
               sx={{ m: 0 }}
             />
           </CardContent>
@@ -114,14 +111,12 @@ const SignUp = () => {
       {formik.errors.role && (
         <Typography color="error" variant="body2" sx={{ mt: 1 }}>
           {formik.errors.role}
-        </Typography>
-      )}
+        </Typography>)}
       <Button
         variant="contained"
         color="primary"
         onClick={formik.handleSubmit}
-        sx={{ mt: 3 }}
-      >
+        sx={{ mt: 3 }}>
         Create an account
       </Button>
       <Typography variant="body2" sx={{ mt: 2 }}>
